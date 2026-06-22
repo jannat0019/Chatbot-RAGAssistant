@@ -21,7 +21,7 @@ Chunking
  ↓
 Embeddings
  ↓
-FAISS
+Chroma DB
  ↓
 Retriever
  ↓
