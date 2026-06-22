@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 
-api_key=os.environ["api_key"]
+api_key = st.secrets["GROQ_API_KEY"]
 
 def CreateLLM(modelname):
 
