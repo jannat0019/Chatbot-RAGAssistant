@@ -1,5 +1,47 @@
-venv_/
-.env
+# Python
 __pycache__/
-.faiss/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+venv_*/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing / cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data
+uploads/
+data/
+*.db
+
+# Logs
+*.log
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Docker
+docker-compose.override.yml
